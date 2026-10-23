@@ -15,7 +15,7 @@ A full replacement home shell for NovaByte OS — custom app grid, taskbar, laun
 
 ## Requirements
 
-- NovaByte OS v3 or an NBOSP fork
+- NovaByte OS or NBOSP fork
 - Developer Mode enabled (Settings → Privacy & Security)
 - Root Access enabled (required for `system:root` permission)
 
