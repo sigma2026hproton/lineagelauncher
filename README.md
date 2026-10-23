@@ -21,7 +21,9 @@ A full replacement home shell for NovaByte OS — custom app grid, taskbar, laun
 
 ## Installation
 
-Download the latest `.novaapp` from [Releases](https://github.com/sigma2026hproton/lineagelauncher/releases) and install via the NovaByte Package Manager.
+**Recommended:** Install from the [NovaByte Store](https://novabyteteam.github.io/novabyte-os/#com.zeedev.lineagelauncher) — the store version is easier to install, digitally signed and reviewed by NovaByte, and includes tamper protection.
+
+Alternatively, download the latest `.novaapp` from [Releases](https://github.com/sigma2026hproton/lineagelauncher/releases) and install via the NovaByte Package Manager. The release packages are built directly from this GitHub source and are **unsigned** — no tamper protection, no integrity digest, no NovaByte review. The OS will show an Unverified warning on install, which is expected. If that matters to you, use the store version instead.
 
 > **Note:** Because Lineage Launcher uses `system:root` and `unrestrictedEntry`, you must have Developer Mode and Root Access turned on before launching. The app will show an error screen and refuse to run until both are enabled.
 
