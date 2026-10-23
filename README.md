@@ -27,13 +27,9 @@ Download the latest `.novaapp` from [Releases](https://github.com/sigma2026hprot
 
 ## Building from source
 
-The package is a single JSON file with Base64-encoded source files. To repackage after edits:
+Edit `index.html`, `manifest.json`, or `root.js`, then repackage using [NovapackStudio](https://github.com/dirazcoder/novapack-studio) — the official NovaByte packaging tool.
 
-```bash
-node scripts/repackage.js . ../dist
-```
-
-Or manually — edit `index.html`, `manifest.json`, or `root.js`, then repack with any NovaByte-compatible packager.
+Open the project folder in NovapackStudio, hit **Build**, and it'll produce the `.novaapp` file ready to install.
 
 ## Repository
 
